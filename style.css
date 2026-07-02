@@ -1,0 +1,11 @@
+*{box-sizing:border-box}body{margin:0;font-family:system-ui;background:#08111f;color:#fff}
+nav{display:flex;justify-content:space-between;padding:18px 8%;background:#0d1729;position:sticky;top:0}
+.hero{padding:90px 8%;text-align:center;background:linear-gradient(135deg,#08111f,#163a74)}
+h1{font-size:3rem;color:#d4af37}
+.cta,.btn{background:#2563eb;color:#fff;padding:14px 22px;border-radius:10px;text-decoration:none}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;padding:20px}
+.card{background:#13233e;border:1px solid #d4af37;border-radius:16px;padding:20px;text-align:center;transition:.3s}
+.card:hover{transform:translateY(-8px)}
+.buy{display:inline-block;margin-top:10px;background:#d4af37;color:#111;padding:10px 16px;border-radius:8px;text-decoration:none}
+.benefits{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));padding:40px 8%;gap:15px}
+footer{text-align:center;padding:30px;background:#050b14}
