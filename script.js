@@ -1,0 +1,3 @@
+const packs=[['100 Diamantes','$5'],['310 Diamantes','$12'],['520 Diamantes','$18'],['1060 Diamantes','$35'],['Membresía Semanal','$8'],['Membresía Mensual','$30']];
+const g=document.querySelector('.grid');
+packs.forEach(([n,p])=>{const d=document.createElement('div');d.className='card';d.innerHTML=`<h3>${n}</h3><p>${p}</p><a class="buy" target="_blank" href="https://wa.me/573000000000?text=${encodeURIComponent('Hola, quiero comprar '+n+' en PUNTAJE ÉLITE.')}">Comprar ahora</a>`;g.appendChild(d)});
